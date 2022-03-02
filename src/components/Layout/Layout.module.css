@@ -1,0 +1,22 @@
+.layoutSection{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.sideLift{
+    width: 20%;
+    height: calc(100vh - 60px);
+    background: #dddd;
+    overflow: auto;
+    top: 60px;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    bottom: 0px;
+}
+.sideRight{
+    width: 80%;
+    position: absolute;
+    top: 60px;
+    left: 20%;
+}

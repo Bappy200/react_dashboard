@@ -1,0 +1,15 @@
+.homeSection{
+    padding: 20px;
+}
+.chart{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.listSection{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}

@@ -1,0 +1,12 @@
+.statistics{
+    flex: 1;
+    padding: 15px;
+    box-shadow: -2px 2px 8px 1px rgba(84, 79, 79, 0.205);
+    border-radius: 5px;
+}
+.statistics h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 15px;
+}

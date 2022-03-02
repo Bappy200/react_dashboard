@@ -1,0 +1,67 @@
+.headerSection{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgb(238, 237, 234);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    z-index: 999;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.logo h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgba(12, 11, 11, 0.952);    
+}
+.navBar{
+    width: 70%;
+}
+.navBar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.navBar ul li{
+    margin-left: 15px;
+}
+.icons{
+    color: rgba(12, 11, 11, 0.952);
+    cursor: pointer;
+    transition: all linear .4s;
+}
+.icons:hover{
+    color: rgba(12, 11, 11, 0.411);
+}
+.userImage{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.notificationIcon{
+    position: relative;
+}
+.notificationIcon span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+    background: rgb(52, 179, 52);
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: -2px;
+
+}

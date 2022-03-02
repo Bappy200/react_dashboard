@@ -1,0 +1,39 @@
+.sideNavBar{
+    padding: 15px;
+  
+}
+.navGroup{
+    margin-bottom: 20px;
+}
+.navGroup h5{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    color: rgb(164, 178, 179);
+}
+.sideMenu{
+    margin-left: 10px;
+}
+.sideMenu li{
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(53, 48, 48);
+  border-radius: 4px;
+  margin-top: 7px;
+  padding: 7px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.sideMenu li:hover, .sideMenu .active{
+    background: rgba(195, 205, 207, 0.867);
+}
+.icon{
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+
