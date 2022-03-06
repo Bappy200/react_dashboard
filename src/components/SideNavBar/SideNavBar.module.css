@@ -15,7 +15,7 @@
 .sideMenu{
     margin-left: 10px;
 }
-.sideMenu li{
+.sideMenu li a{
   display: flex;
   align-items: center;
   text-transform: capitalize;
@@ -28,8 +28,9 @@
   cursor: pointer;
   font-weight: 500;
 }
-.sideMenu li:hover, .sideMenu .active{
+.sideMenu li a:hover, .sideMenu .active{
     background: rgba(195, 205, 207, 0.867);
+    border-radius: 4px;
 }
 .icon{
     font-size: 14px;

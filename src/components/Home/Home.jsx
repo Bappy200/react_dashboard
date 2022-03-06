@@ -3,6 +3,7 @@ import Feature from '../Feature/Feature'
 import Layout from '../Layout/Layout'
 import RevenueChart from '../RevenueChart/RevenueChart'
 import Statistics from '../Statistics/Statistics'
+import NewUserList from '../User/NewUserList'
 import classes from './Home.module.css'
 
 
@@ -16,7 +17,8 @@ function Home() {
              <Statistics/>
            </div>
            <div className={classes.listSection}>
-              
+               <NewUserList title="new user list"/>
+               <NewUserList title="orders list"/>
            </div>
         </div>
     </Layout>
