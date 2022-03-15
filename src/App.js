@@ -1,5 +1,5 @@
 import Home from './components/Home/Home';
-import "./app.css";
+import "./App.css";
 import Analytice from './components/Analytice/Analytice';
 import {BrowserRouter, Route, Routes,} from "react-router-dom";
 import Selas from './components/Selas/Selas';
